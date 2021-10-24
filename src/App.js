@@ -7,7 +7,9 @@ import LoginPage from './pages/loginPage/loginPage';
 
 function App() {
   return (
+  
     <div className="App">
+      
     
       <Router>
       <Switch>
