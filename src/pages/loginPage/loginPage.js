@@ -1,9 +1,6 @@
 import LoginForm from "../../components/loginForm/loginForm";
-import Ellipse1 from './img/Ellipse1.png';
-import Ellipse2 from './img/Ellipse2.png';
-import Ellipse3 from './img/Ellipse3.png';
-import "./loginPage.css"
-import bigLogo from "../../components/logos/bigLogo.png"
+import "./loginPage.css";
+import bigLogo from "../../components/logos/bigLogo.png";
 function LoginPage() {
     return(
         <div className="loginPage">
