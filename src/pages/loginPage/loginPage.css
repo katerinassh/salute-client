@@ -1,0 +1,37 @@
+
+.Ellipse1 {
+  position: absolute;
+  width: 216px;
+  height: 216px;
+  left: 352px;
+  top: 79px;
+  background-image:url("./img/Ellipse1.png");  
+  }
+
+  
+.Ellipse2 {
+   
+  position: absolute;
+  width: 340px;
+  height: 340px;
+  left: 1397px;
+  top: 379px;
+  background-image:url("./img/Ellipse2.png");
+
+  } 
+  
+.bigLogo{
+  position: absolute;
+  left: 315px;
+  top: 345px;
+}
+
+
+.Ellipse3{
+  position: absolute;
+  width: 354px;
+  height: 477px;
+  left: 1567px;
+  top: 302px;
+  background-image:url("./img/Ellipse3.png");
+}
