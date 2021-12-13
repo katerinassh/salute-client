@@ -57,6 +57,10 @@ const InputFieldLogin= styled.input`{
     &::placeholder {
         color: #181818;
       }
+    &:focus::placeholder {
+        color: transparent;
+    }
+
 `;
 
 const InputFieldPassword = styled(InputFieldLogin) `
