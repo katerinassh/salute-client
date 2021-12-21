@@ -17,7 +17,7 @@ const ImageEllipse2 = styled.img`
     height: auto;
 `;
 
-const Logo =styled.img`
+const Logo = styled.img`
     margin-top: 71px;
     width: 100%;
     max-width: 289px;

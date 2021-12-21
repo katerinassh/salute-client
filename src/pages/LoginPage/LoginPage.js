@@ -1,18 +1,17 @@
 import styled from "styled-components";
 import LoginForm from "../../components/LoginForm/LoginForm";
-import component from "./img/Component.svg";
+import component from "./img/Component 1.svg";
 
 const LoginPageContainer = styled.div`
     display: flex;
-    width: 100%;
-    height: auto;
-    padding: 0;
-    margin: 0rem;
+    align-items: center;
+    justify-content: center;
     font-family: "Montserrat Regular";
+    transform: scale(75%);
 `
 
 const Col1 = styled.div`
-    width: 13%;
+    width: 0px;
 `
 
 const Col3 = styled.div`
@@ -21,10 +20,8 @@ const Col3 = styled.div`
 `
 
 const Image = styled.img`
-    margin-top: 302px;
-    height: 477px;
     margin-left: auto;
-    max-width:540px;
+    justify-content: flex-end;
 `
 
 function LoginPage() {
@@ -32,7 +29,7 @@ function LoginPage() {
         <LoginPageContainer>
 
         <Col1></Col1>
-            <LoginForm />
+            <LoginForm/>
         <Col3>
             <Image src={component}/>
         </Col3>
