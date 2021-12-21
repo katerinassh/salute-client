@@ -22,7 +22,7 @@ const Header = styled.div`
     align-items: center;
     justify-content: space-between;
     padding-bottom: 10px;
-    border-bottom: 1px solid black;
+    border-bottom: 0.5px solid black;
 `
 const Logo = styled.img`
     display: flex;
@@ -46,7 +46,7 @@ const Menu = styled.div`
     height: 1000px;
 
     width: 25%;
-    border-right: 1px solid black;
+    border-right: 0.5px solid black;
     margin-right: 0px;
     display: flex;
     justify-content: center;
@@ -99,7 +99,6 @@ const Elem3 = styled.li`
 const Content = styled.div`
     width: 20%;
     margin-left: 100px;
-    // margin-bottom: 100px;
 `
 
 const Group = styled.img`
