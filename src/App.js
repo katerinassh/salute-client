@@ -4,6 +4,7 @@ import RegistrationPage from './pages/RegistrationPage/RegistrationPage';
 import ResetPasswordPage from './pages/ResetPasswordPage/ResetPasswordPage';
 import SignupPage from './pages/SignupPage/SignupPage';
 import InvitationsPage from './pages/InvitationsPage/InvitationsPage';
+import PeoplePage from './pages/PeoplePage/PeoplePage';
 import InterestsPage from './pages/InterestsPage/InterestsPage';
 import FontStyles from './static/font';
 
@@ -19,6 +20,7 @@ function App() {
           <Route exact path="/resetpassword" element={<ResetPasswordPage/>}/>
           <Route exact path="/signup2" element={<SignupPage/>}/>
           <Route exact path="/invitations" element={<InvitationsPage/>}/>
+          <Route exact path="/people" element={<PeoplePage/>}/>
           <Route exact path="/interests" element={<InterestsPage/>}/>
 
 
