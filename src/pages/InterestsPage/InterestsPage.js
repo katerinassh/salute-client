@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import InvitForm from "../../components/InvitForm/InvitForm";
+import InterestOpt from "../../components/InterestOpt/InterestOpt";
 import logo from "./img/salute.svg";
 import icon from "./img/Group 4.svg";
 
@@ -41,7 +41,7 @@ const Div = styled.div`
 `
 
 const Menu = styled.div`
-    height: 800px;
+    height: 900px;
 
     width: 25%;
     border-right: 1px solid black;
@@ -94,6 +94,36 @@ const Elem3 = styled.li`
     }
 `
 
+const Content = styled.div`
+    width: 45%;
+    margin-left: 200px;
+    margin-bottom: 100px;
+`
+const Heading = styled.div`
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 75px;
+`
+const Button = styled.div`
+    display: flex;
+    justify-content: right;
+`
+
+const Btn = styled.button`
+    background: #E5E5E5;
+    width: 150px;
+    height: 40px;
+    margin-top:54px;
+    margin-right: 30px;
+    border: none;
+    font-family: inherit;
+    font-size: 20px;
+    line-height: 37px;
+    &:hover {background: rgba(144, 145, 142, 0.5);
+    }
+`
+
 function InvitationsPage() {
     return(
         <MainPageContainer>
@@ -112,7 +142,11 @@ function InvitationsPage() {
                     {/* <InvitForm></InvitForm> */}
                 </Menu>
 
-                <InvitForm></InvitForm>
+                <Content>
+                    <Heading>choose your interests</Heading>
+                    <InterestOpt></InterestOpt>
+                    <Button><Btn type="save">sign up</Btn></Button>
+                </Content>
             </Div>
 
          </MainPageContainer>

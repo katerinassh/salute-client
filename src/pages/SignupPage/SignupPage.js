@@ -68,7 +68,7 @@ const Col3 = styled.div`
     width: 30%;
 `
 
-function InterestPage() {
+function SignupPage() {
     return(
         <InterPageContainer>
             <Col1>
@@ -88,4 +88,4 @@ function InterestPage() {
 }
 
 
-export default InterestPage;
+export default SignupPage;

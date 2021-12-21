@@ -2,8 +2,9 @@ import { Routes, Route, BrowserRouter as Router } from 'react-router-dom';
 import LoginPage from './pages/LoginPage/LoginPage';
 import RegistrationPage from './pages/RegistrationPage/RegistrationPage';
 import ResetPasswordPage from './pages/ResetPasswordPage/ResetPasswordPage';
-import InterestPage from './pages/InterestPage/InterestPage';
+import SignupPage from './pages/SignupPage/SignupPage';
 import InvitationsPage from './pages/InvitationsPage/InvitationsPage';
+import InterestsPage from './pages/InterestsPage/InterestsPage';
 import FontStyles from './static/font';
 
 function App() {
@@ -16,8 +17,10 @@ function App() {
           <Route exact path="/login" element={<LoginPage/>}/>
           <Route exact path="/signup1" element={<RegistrationPage/>}/>
           <Route exact path="/resetpassword" element={<ResetPasswordPage/>}/>
-          <Route exact path="/signup2" element={<InterestPage/>}/>
+          <Route exact path="/signup2" element={<SignupPage/>}/>
           <Route exact path="/invitations" element={<InvitationsPage/>}/>
+          <Route exact path="/interests" element={<InterestsPage/>}/>
+
 
 
         </Routes>
