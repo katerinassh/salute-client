@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import InterestOpt from "../../components/InterestOpt/InterestOpt";
 import logo from "./img/salute.svg";
-import icon from "./img/Group 4.svg";
+import DropDown from "../../components/DropDown/DropDown";
 
 
 
@@ -129,7 +129,7 @@ function InvitationsPage() {
         <MainPageContainer>
             <Header>
                 <Logo src={logo}/>
-                <Icon src={icon}/>
+                <DropDown/>
             </Header>
 
             <Div>
