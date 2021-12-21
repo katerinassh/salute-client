@@ -56,10 +56,6 @@ const Div = styled.div`
 
 `
 
-const H2 = styled.h2`
-    font-family: inherit;
-    font-size: 35px;
-`
 const H5 = styled.h5`
     font-family: inherit;
     font-size: 15px;

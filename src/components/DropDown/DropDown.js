@@ -5,9 +5,9 @@ function DropDown() {
         <div className="dropdown">
           <button className="dropbtn"></button>
           <div className="dropdown-content">
-          <a href="#">my profile</a>
+          <a href="/profile">my profile</a>
           <a href="/invitations">invitations</a>
-          <a href="#">log out</a>
+          <a href="/logout">log out</a>
           </div>
         </div>
     )

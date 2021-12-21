@@ -1,8 +1,10 @@
 import React from "react";
 import styled from "styled-components";
-import InterestOpt from "../../components/InterestOpt/InterestOpt";
+import ProfileForm from "../../components/ProfileForm/ProfileForm";
 import logo from "./img/salute.svg";
 import DropDown from "../../components/DropDown/DropDown";
+import group from "./img/Group 7.svg"
+
 
 
 
@@ -41,7 +43,7 @@ const Div = styled.div`
 `
 
 const Menu = styled.div`
-    height: 900px;
+    height: 1000px;
 
     width: 25%;
     border-right: 1px solid black;
@@ -95,36 +97,17 @@ const Elem3 = styled.li`
 `
 
 const Content = styled.div`
-    width: 45%;
-    margin-left: 200px;
-    margin-bottom: 100px;
-`
-const Heading = styled.div`
-    font-size: 30px;
-    text-align: center;
-    margin-bottom: 30px;
-    margin-top: 75px;
-`
-const Button = styled.div`
-    display: flex;
-    justify-content: right;
+    width: 20%;
+    margin-left: 100px;
+    // margin-bottom: 100px;
 `
 
-const Btn = styled.button`
-    background: #E5E5E5;
-    width: 150px;
-    height: 40px;
-    margin-top:54px;
-    margin-right: 30px;
-    border: none;
-    font-family: inherit;
-    font-size: 20px;
-    line-height: 37px;
-    &:hover {background: rgba(144, 145, 142, 0.5);
-    }
+const Group = styled.img`
+    width: 500px;
+    margin-left: 300px;
 `
 
-function InvitationsPage() {
+function ProfilePage() {
     return(
         <MainPageContainer>
             <Header>
@@ -139,14 +122,13 @@ function InvitationsPage() {
                         <Elem2><As href="/chats">chats</As></Elem2>
                         <Elem3><As href="/interests">interests</As></Elem3>
                     </Ul>
-                    {/* <InvitForm></InvitForm> */}
                 </Menu>
 
                 <Content>
-                    <Heading>choose your interests</Heading>
-                    <InterestOpt></InterestOpt>
-                    <Button><Btn type="save">save</Btn></Button>
+                    <ProfileForm></ProfileForm>
                 </Content>
+
+                <Group src={group}/>
             </Div>
 
          </MainPageContainer>
@@ -155,4 +137,4 @@ function InvitationsPage() {
 }
 
 
-export default InvitationsPage;
+export default ProfilePage;

@@ -6,6 +6,7 @@ import SignupPage from './pages/SignupPage/SignupPage';
 import InvitationsPage from './pages/InvitationsPage/InvitationsPage';
 import PeoplePage from './pages/PeoplePage/PeoplePage';
 import InterestsPage from './pages/InterestsPage/InterestsPage';
+import ProfilePage from './pages/ProfilePage/ProfilePage';
 import FontStyles from './static/font';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route exact path="/invitations" element={<InvitationsPage/>}/>
           <Route exact path="/people" element={<PeoplePage/>}/>
           <Route exact path="/interests" element={<InterestsPage/>}/>
+          <Route exact path="/profile" element={<ProfilePage/>}/>
 
 
 
